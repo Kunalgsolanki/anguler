@@ -1,0 +1,40 @@
+.custom-card {
+    width: "full";
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+    margin-bottom: 20px; /* Spacing between cards */
+  }
+  
+  .custom-card .mat-card-header {
+    background-color: #f0f0f0; /* Header background color */
+  }
+  
+  .custom-card .mat-card-title {
+    font-size: 18px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+  }
+  
+  .custom-card .mat-card-subtitle {
+    font-size: 14px; /* Subtitle font size */
+  }
+  
+  .custom-card .mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px; /* Padding for action buttons */
+  }
+  
+  .custom-card .mat-card-actions button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Button border radius */
+    padding: 8px 16px; /* Button padding */
+    cursor: pointer; /* Cursor style */
+  }
+  
+  .custom-card .mat-card-actions button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  

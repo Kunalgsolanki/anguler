@@ -1,0 +1,23 @@
+<!-- <ul>
+  @for( weather of data; track weather.date){
+    <div> {{weather.date}}</div>
+    <div> {{weather.temperatureC}}</div>
+    <div> {{weather.temperatureF}}</div>
+    <div> {{weather.summary}}</div>
+  }
+</ul> -->
+
+
+<div>
+  @for( weather of data; track weather.date){
+  <div>
+    <mat-card style="margin-bottom: 20px; width: 100vh;">
+      <mat-card-content>
+        <div>Date: {{ weather.date }}</div>
+        <div>Temperature: {{ weather.temperatureC }}°C / {{ weather.temperatureF }}°F</div>
+        <div>Summary: {{ weather.summary }}</div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+}
+</div>
